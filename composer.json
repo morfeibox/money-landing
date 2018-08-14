@@ -1,6 +1,8 @@
 {
   "require":{
-    "atk4/ui": "^1.2"
+    "atk4/ui": "^1.2",
+    "psy/psysh": "@stable",
+    "atk4/login": "^1.0"
   },
   "autoload": {
     "psr-4": {"": "src/"}

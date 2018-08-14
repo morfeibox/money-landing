@@ -9,8 +9,8 @@ function init(){
 
     $this->addFields([
         
-        ['date','required'=>true],
-        ['amount','required'=>true]
+        ['date','type'=>'date'],
+        ['amount','type'=>'money']
        
         ]);
 
